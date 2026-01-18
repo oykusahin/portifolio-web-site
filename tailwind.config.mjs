@@ -10,8 +10,8 @@ const config = {
   theme: {
     extend: {
         colors: {
-            lighthover: '#E8F5FD',
-            darkhover: '#657786',
+            lightHover: '#fcf4ff',
+            darkHover: '#657786',
             darkTheme: '#15202B',
             primary: '#1DA1F2',
             secondary: '#14171A',

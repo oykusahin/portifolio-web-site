@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import { assets } from "../assets/assets";
+import { assets } from "../../assets/assets";
 
 const navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +27,7 @@ const navbar = () => {
           <a
             href="public/OykuSahinResume_April_2025.pdf"
             download={true}
-            className="lg:flex items-center gap-2 px-4 py-2 border border-gray-500 rounded-full font-Ovo transition-colors duration-200 hover:bg-white/70"
+            className="flex items-center gap-2 px-3 py-2 text-sm border border-gray-500 rounded-full font-Ovo transition-colors duration-200 hover:bg-white/70 md:px-4 md:py-2 md:text-base"
           >
             <Image src={assets.download_icon} alt="Download Icon" className="w-5" />
             Resume
@@ -55,6 +55,17 @@ const navbar = () => {
             <li><a className='font-Ovo' onClick={closeMenu} href="#projects">Projects</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#publications">Publications</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact</a></li>
+            <li>
+              <a
+                href="public/OykuSahinResume_April_2025.pdf"
+                download={true}
+                onClick={closeMenu}
+                className="mt-6 flex items-center justify-center gap-2 px-4 py-3 border border-purple-300 rounded-full font-Ovo bg-white text-purple-700 shadow-sm"
+              >
+                <Image src={assets.download_icon} alt="Download Icon" className="w-5" />
+                Download Resume
+              </a>
+            </li>
         </ul>
       </nav>
     </>
