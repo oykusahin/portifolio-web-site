@@ -31,4 +31,10 @@ export const infoList = [
     description: 'Git, Docker, TensorFlow, PyTorch'},
   { icon: assets.education_icon, iconDark: assets.education_icon, title: 'Education',
     description: 'BSc in Computer Science'},
+  { icon: assets.education_icon, iconDark: assets.education_icon, title: 'Education',
+    description: 'BSc in Computer Science'},
+
 ];
+
+export const toolsData = [assets.code_icon, assets.code_icon, assets.code_icon, assets.code_icon,
+  assets.code_icon, assets.code_icon, assets.code_icon, assets.code_icon, assets.code_icon];
