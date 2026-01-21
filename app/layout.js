@@ -13,6 +13,9 @@ const ovo = Ovo({
 export const metadata = {
   title: "Oyku Sahin - Portfolio",
   description: "Portfolio website of Oyku Sahin, a Machine Learning Engineer.",
+  icons: {
+    icon: "/robot.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

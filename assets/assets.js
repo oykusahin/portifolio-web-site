@@ -9,6 +9,13 @@ import downloadIcon from '@/public/download.svg';
 import educationIcon from '@/public/education.svg';
 import codeIcon from '@/public/code.svg';
 import toolsIcon from '@/public/tools.svg';
+import oyku from '@/public/oyku.png';
+import robotIcon from '@/public/robot.svg';
+import googleScholarIcon from '@/public/google_scholar.svg';
+import githubIcon from '@/public/github.svg';
+import linkedinIcon from '@/public/linkedin.svg';
+import emailIcon from '@/public/email.svg';
+import emailDarkIcon from '@/public/email_dark.svg';
 
 export const assets = {
   logo,
@@ -22,6 +29,13 @@ export const assets = {
   education_icon: educationIcon,
   code_icon: codeIcon,
   tools_icon: toolsIcon,
+  oyku_image: oyku,
+  robot_image: robotIcon,
+  google_scholar_icon: googleScholarIcon,
+  github_icon: githubIcon,
+  linkedin_icon: linkedinIcon,
+  email_icon: emailIcon,
+  email_dark_icon: emailDarkIcon,
 };
 
 export const infoList = [
