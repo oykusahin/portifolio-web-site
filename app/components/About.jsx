@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-11/12 max-w-5xl mx-auto py-16"
+      className="w-11/12 max-w-5xl mx-auto py-16 scroll-mt-10"
     >
       <h2 className="text-center text-3xl sm:text-4xl lg:text-[66px] font-Ovo font-bold">
         About Me

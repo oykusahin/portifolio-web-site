@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav className={`fixed top-0 left-0 w-full px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition-colors duration-300
       ${isScroll ? "bg-white-100 backdrop-blur-lg shadow-sm" : "bg-white-100"}`} >
         <a href="#top">
-            <Image src={assets.logo} alt="Logo" className='w-28 cursor-pointer mr-14' />
+            <Image src={assets.robot_image} alt="Logo" className='w-16 cursor-pointer mr-10' />
         </a>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white bg-opacity-50 backdrop-blur-sm border border-gray-200'>
             <li><a className='font-Ovo transition-colors duration-200 hover:text-purple-600' href="#top">Home</a></li>
@@ -36,6 +36,7 @@ const Navbar = () => {
             <li><a className='font-Ovo transition-colors duration-200 hover:text-purple-600' href="#case-studies">Case Studies</a></li>
             <li><a className='font-Ovo transition-colors duration-200 hover:text-purple-600' href="#publications">Publications</a></li>
             <li><a className='font-Ovo transition-colors duration-200 hover:text-purple-600' href="#teaching">Teaching</a></li>
+            <li><a className='font-Ovo transition-colors duration-200 hover:text-purple-600' href="#blog">Blog</a></li>
             <li><a className='font-Ovo transition-colors duration-200 hover:text-purple-600' href="#contact">Contact</a></li>
         </ul>
 
@@ -68,8 +69,10 @@ const Navbar = () => {
             </div>
             <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#about">About</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#projects">Projects</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="#case-studies">Case Studies</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="#teaching">Teaching</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#publications">Publications</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="#blog">Blog</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact</a></li>
             <li>
               <a
