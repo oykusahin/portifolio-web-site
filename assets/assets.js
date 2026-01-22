@@ -16,6 +16,7 @@ import githubIcon from '@/public/github.svg';
 import linkedinIcon from '@/public/linkedin.svg';
 import emailIcon from '@/public/email.svg';
 import emailDarkIcon from '@/public/email_dark.svg';
+import copyrightIcon from '@/public/copyright.svg';
 
 export const assets = {
   logo,
@@ -36,6 +37,7 @@ export const assets = {
   linkedin_icon: linkedinIcon,
   email_icon: emailIcon,
   email_dark_icon: emailDarkIcon,
+  copyright_icon: copyrightIcon
 };
 
 export const infoList = [
