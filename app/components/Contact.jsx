@@ -27,7 +27,7 @@ const Contact = () => {
               <span className="p-2 rounded-full bg-gray-100 border border-gray-200">
                 <Image src={assets.email_dark_icon} alt="Email" className="w-5 h-5" />
               </span>
-              oykusahin@google.com
+              oykusahin08@gmail.com
             </li>
             <li className="flex items-center gap-3">
               <span className="p-2 rounded-full bg-gray-100 border border-gray-200">
