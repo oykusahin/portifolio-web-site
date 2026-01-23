@@ -33,13 +33,40 @@ const Contact = () => {
               <span className="p-2 rounded-full bg-gray-100 border border-gray-200">
                 <Image src={assets.linkedin_icon} alt="LinkedIn" className="w-5 h-5" />
               </span>
-              linkedin.com/in/oykusahin
+              <a
+                href="https://www.linkedin.com/in/oykusahin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-700 hover:underline"
+              >
+                linkedin.com/in/oykusahin
+              </a>
             </li>
             <li className="flex items-center gap-3">
               <span className="p-2 rounded-full bg-gray-100 border border-gray-200">
                 <Image src={assets.github_icon} alt="GitHub" className="w-5 h-5" />
               </span>
-              github.com/oykusahin
+              <a
+                href="https://github.com/oykusahin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-700 hover:underline"
+              >
+                github.com/oykusahin
+              </a>
+            </li>
+            <li className="flex items-center gap-3">
+              <span className="p-2 rounded-full bg-gray-100 border border-gray-200">
+                <Image src={assets.bsky_icon} alt="Bluesky" className="w-5 h-5" />
+              </span>
+              <a
+                href="https://bsky.app/profile/oykussahin.bsky.social"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-700 hover:underline"
+              >
+                oykussahin.bsky.social
+              </a>
             </li>
           </ul>
         </div>
