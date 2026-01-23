@@ -6,6 +6,7 @@ import CaseStudies from "./components/CaseStudies";
 import Publications from "./components/Publications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Teaching from "./components/Teaching";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About/>  
       <CaseStudies/>
       <Publications/>
+      <Teaching/>
       <Contact/>
       <Footer/>
     </>
