@@ -18,6 +18,10 @@ import emailIcon from '@/public/email.svg';
 import emailDarkIcon from '@/public/email_dark.svg';
 import copyrightIcon from '@/public/copyright.svg';
 import bskyIcon from '@/public/bsky.svg';
+import MLIcon from '@/public/ml.svg';
+import AIIcon from '@/public/ai.svg';
+import cloudIcon from '@/public/cloud.svg';
+import UIIcon from '@/public/ui.svg';
 
 export const assets = {
   logo,
@@ -40,18 +44,43 @@ export const assets = {
   email_dark_icon: emailDarkIcon,
   copyright_icon: copyrightIcon,
   bsky_icon: bskyIcon,
+  ml_icon: MLIcon,
+  ai_icon: AIIcon,
+  cloud_icon: cloudIcon,
+  ui_icon: UIIcon,
 };
 
 export const infoList = [
-  { icon: assets.code_icon, iconDark: assets.code_icon, title: 'Languages', 
-    description: 'HTML, CSS, JavaScript, ReactJS, Next.js'},
-  { icon: assets.tools_icon, iconDark: assets.tools_icon, title: 'Tools & Frameworks',
-    description: 'Git, Docker, TensorFlow, PyTorch'},
-  { icon: assets.education_icon, iconDark: assets.education_icon, title: 'Education',
-    description: 'BSc in Computer Science'},
-  { icon: assets.education_icon, iconDark: assets.education_icon, title: 'Education',
-    description: 'BSc in Computer Science'},
-
+  {
+    icon: assets.code_icon,
+    title: "Programming",
+    description: "Python, Java, SQL",
+  },
+  {
+    icon: assets.ml_icon,
+    title: "Machine Learning & Statistical Modeling",
+    description: "PyTorch, TensorFlow, scikit-learn\nNumPy, pandas, OpenCV\nClassical ML, deep learning, time-series modeling",
+  },
+  {
+    icon: assets.ai_icon,
+    title: "Generative AI & LLM Systems",
+    description: "RAG: LangChain, embedding-based retrieval pipelines\nVector DBs: Qdrant, FAISS\nFine-tuning: LoRA\nPrompt engineering & evaluation",
+  },
+  {
+    icon: assets.tools_icon,
+    title: "MLOps & ML Systems",
+    description: "Docker, Git, MLflow, Prefect\nKubeflow pipelines\nModel serving: Triton Inference Server",
+  },
+  {
+    icon: assets.cloud_icon,
+    title: "Cloud & Infrastructure",
+    description: "AWS (S3, EC2, SageMaker, Bedrock)\nScalable deployment & inference pipelines",
+  },
+  {
+    icon: assets.ui_icon,
+    title: "Frontend / Interfaces",
+    description: "React, Next.js, Gradio",
+  },
 ];
 
 export const toolsData = [assets.code_icon, assets.code_icon, assets.code_icon, assets.code_icon,
