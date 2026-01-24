@@ -24,27 +24,38 @@ const Header = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
             className="flex items-end justify-center gap-2 text-xl font-Ovo text-center mb-6">
-                Hi! I am Öykü and this is my portfolio. 
-                <Image 
-                    src={assets.hello_icon} 
-                    alt="" 
-                    className='w-6' />
+                Hi! I am Öykü, welcome to my portfolio. 
             </motion.h3>
             <motion.h1
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
-            className='text-3xl sm:text-4xl lg:text-[66px] font-Ovo font-bold mb-6'>
-                I am a Machine Learning Engineer.
+            className='flex items-end justify-center gap-2 text-xl font-Ovo text-center mb-2'>
+                I am a
+            </motion.h1>
+            <motion.h1
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.35, ease: 'easeOut' }}
+            className='text-3xl sm:text-4xl lg:text-[36px] font-Ovo font-bold mb-6 text-purple-500'>
+                Machine Learning Engineer
             </motion.h1>
             <motion.p
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
             >
-                I made this portifolio to showcase my skills, projects, and experiences in the field of machine learning.
-                Usually, CVs are boring and plain, but I wanted to create something more interactive and engaging.
+                I made this portfolio to showcase my skills, projects, and experiences in the field of machine learning.
+                CVs have limited space, so I wanted to create something more informative and expressive.
                 Feel free to explore and learn more about me!
+            </motion.p>
+            <motion.p
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.35, ease: 'easeOut' }}
+            className="mt-4 text-gray-800"
+            >
+                Current interest: ML & AI system design
             </motion.p>
             <div className="flex flex-wrap gap-3 justify-center mt-6">
               <motion.a
