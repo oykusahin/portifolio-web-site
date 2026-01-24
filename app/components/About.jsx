@@ -14,42 +14,61 @@ const About = () => {
 
       <div className="mt-12 flex w-full flex-col items-center gap-12">
         <p className="w-full max-w-4xl text-center mb-6 text-gray-600 leading-relaxed font-Ovo">
-          I am a passionate Machine Learning Engineer with a strong background
-          in computer science. I love working on innovative projects that make
-          a difference in people's lives.
+          I am a Machine Learning Engineer with BSc and MSc degrees in Computer Science from{" "}
+          <a
+            href="https://w3.bilkent.edu.tr/bilkent/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-500 font-semibold hover:underline"
+          >
+            Bilkent University
+          </a>
+          .
+          I have over six years of experience working on end-to-end machine learning systems — from research and modeling to deployment,
+          monitoring, and optimization. I am currently working at the{" "}
+          <a
+            href="https://www.tcmb.gov.tr/wps/wcm/connect/en/tcmb+en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-500 font-semibold hover:underline"
+          >
+            Central Bank of Türkiye
+          </a>
+          , where my work focuses on data-driven modeling 
+          for financial infrastructures and real-time nowcasting of macroeconomic indicators.
         </p>
 
-        <ul className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <ul className="w-full grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {infoList.map(({ icon, title, description }, index) => (
             <li
-              className="border border-gray-200 rounded-2xl p-5 flex flex-col justify-between text-left shadow-sm hover:-translate-y-1 transition-all duration-300 min-h-[200px]"
               key={index}
+              className="border border-gray-200 rounded-2xl p-6
+                        flex flex-col items-center text-center
+                        shadow-sm hover:-translate-y-1
+                        transition-all duration-300 min-h-[220px]"
             >
-              <Image src={icon} alt={title} className="w-7" />
-              <h3 className="mt-4 font-semibold text-gray-700 text-lg">
+              {/* Icon */}
+              <div className="mb-4 flex items-center justify-center
+                              w-12 h-12 rounded-xl bg-gray-100">
+                <Image
+                  src={icon}
+                  alt={title}
+                  className="w-6 h-6"
+                />
+              </div>
+
+              {/* Title */}
+              <h3 className="font-semibold text-gray-800 text-lg mb-2">
                 {title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
+
+              {/* Description */}
+              <p className="text-gray-600 text-sm leading-relaxed max-w-[260px]">
                 {description}
               </p>
             </li>
           ))}
         </ul>
-
-        <div className="w-full">
-          <h4 className="my-6 text-gray-700 font-Ovo text-center">Tools I Use</h4>
-
-          <ul className="flex flex-wrap items-center justify-center gap-3 sm:gap-5">
-            {toolsData.map((tool, index) => (
-              <li
-                key={index}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 shadow-black"
-              >
-                <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </div>
   );
