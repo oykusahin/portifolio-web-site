@@ -42,10 +42,7 @@ const About = () => {
           {infoList.map(({ icon, title, description }, index) => (
             <li
               key={index}
-              className="border border-gray-200 rounded-2xl p-6
-                        flex flex-col items-center text-center
-                        shadow-sm hover:-translate-y-1
-                        transition-all duration-300 min-h-[220px]"
+              className="border border-gray-200 rounded-2xl p-6 flex flex-col items-center text-center shadow-sm hover:-translate-y-1 transition-all duration-300 min-h-[220px]"
             >
               {/* Icon */}
               <div className="mb-4 flex items-center justify-center
