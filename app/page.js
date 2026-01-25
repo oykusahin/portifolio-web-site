@@ -7,6 +7,7 @@ import Publications from "./components/Publications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Teaching from "./components/Teaching";
+import Blog from "./components/Blog";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CaseStudies/>
       <Publications/>
       <Teaching/>
+      <Blog/>
       <Contact/>
       <Footer/>
     </>
