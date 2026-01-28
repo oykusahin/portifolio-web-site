@@ -53,8 +53,8 @@ export const assets = {
 export const infoList = [
   {
     icon: assets.code_icon,
-    title: "Programming",
-    description: "Python, Java, SQL",
+    title: "Programming and Version Control",
+    description: "Python, Java, SQL, Git",
   },
   {
     icon: assets.ml_icon,
@@ -69,7 +69,7 @@ export const infoList = [
   {
     icon: assets.tools_icon,
     title: "MLOps & ML Systems",
-    description: "Docker, Git, MLflow, Prefect\nKubeflow pipelines\nModel serving: Triton Inference Server",
+    description: "Docker, MLflow, Prefect\nKubeflow pipelines\nModel serving: Triton Inference Server",
   },
   {
     icon: assets.cloud_icon,
@@ -78,8 +78,8 @@ export const infoList = [
   },
   {
     icon: assets.ui_icon,
-    title: "Frontend / Interfaces",
-    description: "React, Next.js, Gradio",
+    title: "Backend / Frontend / Interfaces",
+    description: "FastAPI, SQLLite, PostgreSQL, Alembic, React, Next.js, Gradio",
   },
 ];
 

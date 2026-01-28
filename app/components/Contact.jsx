@@ -107,10 +107,9 @@ const Contact = () => {
           </h3>
 
           <ul className="space-y-3 text-gray-700 list-disc pl-5">
-            <li>Applied and research-driven machine learning</li>
+            <li>Research-driven machine learning especially in medical imaging</li>
             <li>ML systems design, deployment, and inference</li>
             <li>Data-driven modeling for real-world decision-making</li>
-            <li>Policy-adjacent technology</li>
             <li>Teaching, mentoring, and invited talks</li>
           </ul>
         </div>
