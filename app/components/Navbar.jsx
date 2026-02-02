@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <a
-            href="public/OykuSahinResume_April_2025.pdf"
+            href="/OykuSahinResume_January26.pdf"
             download={true}
             className="flex items-center gap-2 px-3 py-2 text-sm border border-gray-500 rounded-full font-Ovo transition-colors duration-200 hover:bg-white/70 md:px-4 md:py-2 md:text-base"
           >
@@ -76,13 +76,20 @@ const Navbar = () => {
             <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact</a></li>
             <li>
               <a
-                href="public/OykuSahinResume_April_2025.pdf"
+                href="/OykuSahinResume_January26.pdf"
                 download={true}
                 onClick={closeMenu}
-                className="mt-6 flex items-center justify-center gap-2 px-4 py-3 border border-purple-300 rounded-full font-Ovo bg-white text-purple-700 shadow-sm"
+                className="mt-8 block rounded-2xl border border-purple-200 bg-white/80 px-5 py-4 font-Ovo text-left text-purple-900 shadow-lg shadow-purple-200/60"
               >
-                <Image src={assets.download_icon} alt="Download Icon" className="w-5" />
-                Download Resume
+                <div className="flex items-center gap-3">
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-purple-100">
+                    <Image src={assets.download_icon} alt="Download Icon" className="w-5" />
+                  </span>
+                  <div className="flex flex-col">
+                    <span className="text-sm text-gray-500">Resume</span>
+                    <span className="text-base font-semibold text-purple-700">Download PDF</span>
+                  </div>
+                </div>
               </a>
             </li>
         </ul>

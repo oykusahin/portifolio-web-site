@@ -24,7 +24,7 @@ const Header = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
             className="flex items-end justify-center gap-2 text-xl font-Ovo text-center mb-6">
-                Hi! I am Öykü, welcome to my portfolio. 
+                Hi! I am Oyku, welcome to my portfolio. 
             </motion.h3>
             <motion.h1
             initial={{ opacity: 0, y: -20 }}
