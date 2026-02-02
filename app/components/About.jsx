@@ -1,6 +1,7 @@
 import React from 'react';
 import { infoList, toolsData } from '../../assets/assets';
 import Image from 'next/image';
+import Script from 'next/script';
 
 const About = () => {
   return (
@@ -66,6 +67,24 @@ const About = () => {
             </li>
           ))}
         </ul>
+
+        <div className="w-full flex flex-col items-center gap-6 mt-4">
+          <div className="text-center">
+            <h3 className="text-2xl font-Ovo font-semibold">Certificates</h3>
+            <p className="text-gray-600 mt-2 max-w-2xl">
+              Selected badges from Credly that highlight cloud, AI, and ML expertise.
+            </p>
+          </div>
+          <div className="flex justify-center w-full">
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="2230b2d4-c293-4492-a78f-4b8b6f287e59"
+              data-share-badge-host="https://www.credly.com"
+            ></div>
+          </div>
+          <Script src="https://cdn.credly.com/assets/utilities/embed.js" strategy="lazyOnload" />
+        </div>
       </div>
     </div>
   );
