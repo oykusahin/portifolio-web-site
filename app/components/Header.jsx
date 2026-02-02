@@ -45,7 +45,7 @@ const Header = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
             >
-                I made this portfolio to showcase my skills, projects, and experiences in the field of machine learning.
+                I made this portfolio to showcase my skills and experiences.
                 CVs have limited space, so I wanted to create something more informative and expressive.
                 Feel free to explore and learn more about me!
             </motion.p>
