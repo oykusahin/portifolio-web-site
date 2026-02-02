@@ -6,7 +6,7 @@ const sessions = [
     role: "Invited Speaker",
     date: "April 2025",
     institution: "Bilkent University CTIS",
-    institutionLink: "https://w3.ctis.bilkent.edu.tr/website/",
+    institutionLink: "https://www.ctis.bilkent.edu.tr/",
     description:
       "Invited lecture covering supervised learning fundamentals, model evaluation, and practical deployment tips.",
     referenceLink:
