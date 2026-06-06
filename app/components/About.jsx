@@ -46,8 +46,7 @@ const About = () => {
               className="border border-gray-200 rounded-2xl p-6 flex flex-col items-center text-center shadow-sm hover:-translate-y-1 transition-all duration-300 min-h-[220px]"
             >
               {/* Icon */}
-              <div className="mb-4 flex items-center justify-center
-                              w-12 h-12 rounded-xl bg-gray-100">
+              <div className="mb-4 flex items-center justify-center w-12 h-12 rounded-xl bg-gray-100">
                 <Image
                   src={icon}
                   alt={title}
@@ -75,11 +74,17 @@ const About = () => {
               Selected badges from Credly that highlight cloud, AI, and ML expertise.
             </p>
           </div>
-          <div className="flex justify-center w-full">
+          <div className="flex flex-wrap justify-center items-center gap-8 w-full">
             <div
               data-iframe-width="150"
               data-iframe-height="270"
               data-share-badge-id="2230b2d4-c293-4492-a78f-4b8b6f287e59"
+              data-share-badge-host="https://www.credly.com"
+            ></div>
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="678b6a0e-bea0-4ddd-b060-727d06b90f21"
               data-share-badge-host="https://www.credly.com"
             ></div>
           </div>

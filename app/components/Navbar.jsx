@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <a
-            href="/OykuSahinResume_January26.pdf"
+            href="/OykuSahinResume_June26.pdf"
             download={true}
             className="flex items-center gap-2 px-3 py-2 text-sm border border-gray-500 rounded-full font-Ovo transition-colors duration-200 hover:bg-white/70 md:px-4 md:py-2 md:text-base"
           >
@@ -76,7 +76,7 @@ const Navbar = () => {
             <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact</a></li>
             <li>
               <a
-                href="/OykuSahinResume_January26.pdf"
+                href="/OykuSahinResume_June26.pdf"
                 download={true}
                 onClick={closeMenu}
                 className="mt-8 block rounded-2xl border border-purple-200 bg-white/80 px-5 py-4 font-Ovo text-left text-purple-900 shadow-lg shadow-purple-200/60"

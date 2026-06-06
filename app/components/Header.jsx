@@ -55,7 +55,7 @@ const Header = () => {
             transition={{ duration: 0.6, delay: 0.35, ease: 'easeOut' }}
             className="mt-4 text-gray-800"
             >
-                Current interest: ML & AI system design
+                Current Interest: AI System Design
             </motion.p>
             <div className="flex flex-wrap gap-3 justify-center mt-6">
               <motion.a

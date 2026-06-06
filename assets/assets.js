@@ -64,12 +64,12 @@ export const infoList = [
   {
     icon: assets.ai_icon,
     title: "Generative AI & LLM Systems",
-    description: "RAG: LangChain, embedding-based retrieval pipelines\nVector DBs: Qdrant, FAISS\nFine-tuning: LoRA\nPrompt engineering & evaluation",
+    description: "RAG: LangChain, RAGFlow, embedding-based retrieval pipelines\nVector DBs: Qdrant, FAISS\nLocal LLM serving: Ollama\nFine-tuning: LoRA\nPrompt engineering & evaluation",
   },
   {
     icon: assets.tools_icon,
     title: "MLOps & ML Systems",
-    description: "Docker, MLflow, Prefect\nKubeflow pipelines\nModel serving: Triton Inference Server",
+    description: "Docker, MLflow, Prefect, Model serving: Triton Inference Server",
   },
   {
     icon: assets.cloud_icon,
