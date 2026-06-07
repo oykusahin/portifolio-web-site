@@ -69,7 +69,7 @@ export const infoList = [
   {
     icon: assets.tools_icon,
     title: "MLOps & ML Systems",
-    description: "Docker, MLflow, Prefect, Model serving: Triton Inference Server",
+    description: "Docker, MLflow, Prefect, n8n, Model serving: Triton Inference Server",
   },
   {
     icon: assets.cloud_icon,
