@@ -87,6 +87,12 @@ const About = () => {
               data-share-badge-id="678b6a0e-bea0-4ddd-b060-727d06b90f21"
               data-share-badge-host="https://www.credly.com"
             ></div>
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="9c9a14c9-0d92-47ea-96a9-60817434df9e"
+              data-share-badge-host="https://www.credly.com"
+            ></div>
           </div>
           <Script src="https://cdn.credly.com/assets/utilities/embed.js" strategy="lazyOnload" />
         </div>
